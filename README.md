@@ -1,3 +1,9 @@
-# House_Price_Prediction_Project
-Using machine learning to predict the sale price of a house 
-project 
+# House Price Prediction Project
+## Overview
+As our final project, we have decided to predict house prices using historical data and machine learning. We chose the topic of predicting house prices because the housing market has been a widely talked about especially since the start of the COVID-19 pandemic. We also chose this topic because it affects all of us in one way or another. There are two datasets being used for this analysis: data on house prices sold in Seattle, Washington, USA between August and December 2022 from Kaggle and data on the coordinates of the houses sold using Google API. The data on house prices sold contains both training and testing data with columns 'beds','baths','size','size_units','lot_size',	'lot_size_units',	'zip_code', and	'price'. The target column is 'price' and the other columns are the features. 
+
+
+## Results
+
+
+## Summary 
