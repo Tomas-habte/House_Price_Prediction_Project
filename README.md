@@ -11,7 +11,7 @@ As our final project, we have decided to predict house prices using historical d
 
 |ERD | 
 | ------------- |
-|![Screenshot 2023-02-01 200225](https://user-images.githubusercontent.com/111667387/216205579-6371c9ac-7e6d-48c5-ad6b-f303eb1a45a3.jpg)|
+|![Screenshot 2023-02-01 200225](https://user-images.githubusercontent.com/111667387/216205791-3c5a0304-c405-4f45-b89c-d5e62632f306.jpg)|
 
 | Final DataFrame | 
 | ------------- |
