@@ -9,6 +9,10 @@ As our final project, we have decided to predict house prices using historical d
 -  The main challenge we faced while choosing the dataset is that we could not find data on the topics we found most interesting, and the data we were able to find was complex and required a lot of cleaning. Therefore, we searched for data that was reasonably easy to work with. While our dataset only contained data spanning 5 months ending in Decemeber 2022, we wanted to use it as this was very recent and can give us good insights. 
 -  For our second dataset, we were able to extract the coordinates for the houses in Seattle from Excel (**link**: https://www.listendata.com/2020/11/zip-code-to-latitude-and-longitude.html). Using VLOOKUP, we found the corresponding coordinates (‘lat’, ‘lon’) from the second dataset to the Zip Code in the first dataset (testing and training files)
 
+|ERD | 
+| ------------- |
+|![Screenshot 2023-02-01 200225](https://user-images.githubusercontent.com/111667387/216205579-6371c9ac-7e6d-48c5-ad6b-f303eb1a45a3.jpg)|
+
 | Final DataFrame | 
 | ------------- |
 |![Dataset](https://user-images.githubusercontent.com/111667387/215643247-da31c70f-86f3-4714-892b-ab6897e44dec.jpg)|
