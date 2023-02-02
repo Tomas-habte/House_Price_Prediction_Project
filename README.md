@@ -23,7 +23,8 @@ As our final project, we have decided to predict house prices using historical d
 - Tableau
 - Excel 
 
-We are planning to visualize the data of our model in Tableau. Currently, we are working on a simple machine learning model to determine how it will work.
+**Project Status**: We are currently building several machine learning models to determine the best one to use for our final presentation. A major challenge we are facing is that we are getting very poor results, so by using different models such as one with scaled data we are hoping to get better results. 
+
 ## Results
 
 
