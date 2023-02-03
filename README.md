@@ -30,6 +30,12 @@ As our final project, we have decided to predict house prices using historical d
 **Project Status**: We are currently building several machine learning models to determine the best one to use for our final presentation. A major challenge we are facing is that we are getting very poor results, so by using different models such as one with scaled data we are hoping to get better results. 
 
 ## Results
-
+|Pairplot: | 
+| ------------- |
+|![pairplot ](https://user-images.githubusercontent.com/111667387/216508451-b7abbdb8-8d8d-4d73-aa21-b97dda9207f8.jpg)|
+|**Barplot**: | 
+|![barplot](https://user-images.githubusercontent.com/111667387/216508256-d0984b54-c87d-4558-9f6b-42f0be5e341c.jpg)|
+|**Heatmap**:| 
+|![heatmap ](https://user-images.githubusercontent.com/111667387/216508793-fcdef79f-efec-473c-ad8e-42337ebf9b4f.jpg)|
 
 ## Summary 
