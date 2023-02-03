@@ -33,7 +33,7 @@ As our final project, we have decided to predict house prices using historical d
 |Pairplot: | 
 | ------------- |
 |![pairplot ](https://user-images.githubusercontent.com/111667387/216508451-b7abbdb8-8d8d-4d73-aa21-b97dda9207f8.jpg)|
-|**Barplot**: | 
+|**Barplot**: Using barplot in Seaborn, we were able to illustrate how house prices vary signficantly depending on the zip code. We can see that houses in zip codes 98109 and 98168 are the priciest.| 
 |![barplot](https://user-images.githubusercontent.com/111667387/216508256-d0984b54-c87d-4558-9f6b-42f0be5e341c.jpg)|
 |**Heatmap**:| 
 |![heatmap ](https://user-images.githubusercontent.com/111667387/216508793-fcdef79f-efec-473c-ad8e-42337ebf9b4f.jpg)|
