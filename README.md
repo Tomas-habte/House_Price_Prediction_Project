@@ -30,7 +30,7 @@ As our final project, we have decided to predict house prices using historical d
 **Project Status**: We are currently building several machine learning models to determine the best one to use for our final presentation. A major challenge we are facing is that we are getting very poor results, so by using different models such as one with scaled data we are hoping to get better results. 
 
 ## Results
-|Pairplot: | 
+|Pairplot: Using pairplot in Seaborn, out of the 5 plots generated, we can see that the increase in price is most strongly influenced by the increase in house size. Similar but weaker relationships are also seen between price and the number of beds as well as price and the number of baths. In addition, we can see that prices for different lot sizes varies indicating that other factors such as location may be playing an important role.| 
 | ------------- |
 |![pairplot ](https://user-images.githubusercontent.com/111667387/216508451-b7abbdb8-8d8d-4d73-aa21-b97dda9207f8.jpg)|
 |**Barplot**: Using barplot in Seaborn, we were able to illustrate how house prices vary signficantly depending on the zip code. We can see that houses in zip codes 98109 and 98168 are the priciest. On the other hand, houses with zip codes 98199 and 98146 are the cheapest. Zipcodes was also ranked number 1 on our list of feature importance.| 
