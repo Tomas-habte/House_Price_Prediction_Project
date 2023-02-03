@@ -35,7 +35,7 @@ As our final project, we have decided to predict house prices using historical d
 |![pairplot ](https://user-images.githubusercontent.com/111667387/216508451-b7abbdb8-8d8d-4d73-aa21-b97dda9207f8.jpg)|
 |**Barplot**: Using barplot in Seaborn, we were able to illustrate how house prices vary signficantly depending on the zip code. We can see that houses in zip codes 98109 and 98168 are the priciest. On the other hand, houses with zip codes 98199 and 98146 are the cheapest. Zipcodes was also ranked number 1 on our list of feature importance.| 
 |![barplot](https://user-images.githubusercontent.com/111667387/216508256-d0984b54-c87d-4558-9f6b-42f0be5e341c.jpg)|
-|**Heatmap**:| 
+|**Heatmap**: Using heatmap in Seaborn, our map showed that the number of beds and house size are the most positively correlated followed by size and price and then baths and size. Conversely, the most negatively correlated factors are beds and lot size followed by lot size and price and then zip code and baths.| 
 |![heatmap ](https://user-images.githubusercontent.com/111667387/216508793-fcdef79f-efec-473c-ad8e-42337ebf9b4f.jpg)|
 
 ## Summary 
