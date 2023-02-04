@@ -40,7 +40,7 @@ As our final project, we have decided to predict house prices using historical d
 |![heatmap](https://user-images.githubusercontent.com/111667387/216514150-2dc4e59f-eeef-4daa-9f07-6b6b1f008e75.png)|
 
 **Model** 
-|Our linear regression model performed poorly overall with a model train score of 0.21 and test score of 0.13. The mean absolute error (MAE) was also very high with a score of 306819.77 and a root mean squared error of 553.91. While we are not satisfied with these scores, we achieved our goal of building a simple functioning model for deliverable 2. For deliverable 3, we plan to use scaling, adding more features, and trying different models to determine the best model to use. | 
+|Our linear regression model performed poorly overall with a model train score of 0.21 and test score of 0.13. The mean absolute error (MAE) was also very high with a score of 306819.77 and a root mean squared error (RMSE) of 553.91. While we are not satisfied with these scores, we achieved our goal of building a simple functioning model for deliverable 2. For deliverable 3, we plan to use scaling, adding more features, and trying different models to determine the best model to use. | 
 | ------------- |
 |![model evaluation ](https://user-images.githubusercontent.com/111667387/216739702-19e791bb-6dee-4c4e-802f-dd9a6b530009.png)|
 ## Summary 
