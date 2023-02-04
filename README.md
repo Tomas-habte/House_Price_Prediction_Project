@@ -30,6 +30,7 @@ As our final project, we have decided to predict house prices using historical d
 **Project Status**: We are currently building several machine learning models to determine the best one to use for our final presentation. A major challenge we are facing is that we are getting very poor results, so by using different models such as one with scaled data we are hoping to get better results. 
 
 ## Results
+**Visualization** 
 |Pairplot: Using pairplot in Seaborn, out of the 5 plots generated, we can see that the increase in price is most strongly influenced by the increase in house size. Similar but weaker relationships are also seen between price and the number of beds as well as price and the number of baths. In addition, we can see that prices for different lot sizes varies indicating that other factors such as location may be playing an important role.| 
 | ------------- |
 |![pairplot ](https://user-images.githubusercontent.com/111667387/216508451-b7abbdb8-8d8d-4d73-aa21-b97dda9207f8.jpg)|
@@ -38,4 +39,8 @@ As our final project, we have decided to predict house prices using historical d
 |**Heatmap**: Using heatmap in Seaborn, our map showed that the number of beds and house size are the most positively correlated followed by size and price and then baths and size. Conversely, the most negatively correlated factors are beds and lot size followed by zip code and price and then baths and lot size. We believe some of these correlations are inaccurate which indicates that there may be some issues with our dataset.| 
 |![heatmap](https://user-images.githubusercontent.com/111667387/216514150-2dc4e59f-eeef-4daa-9f07-6b6b1f008e75.png)|
 
+**Model** 
+|Pairplot: Using pairplot in Seaborn, out of the 5 plots generated, we can see that the increase in price is most strongly influenced by the increase in house size. Similar but weaker relationships are also seen between price and the number of beds as well as price and the number of baths. In addition, we can see that prices for different lot sizes varies indicating that other factors such as location may be playing an important role.| 
+| ------------- |
+|![model evaluation ](https://user-images.githubusercontent.com/111667387/216739429-60467831-0c93-4aca-bbfc-58546e58b531.png)|
 ## Summary 
