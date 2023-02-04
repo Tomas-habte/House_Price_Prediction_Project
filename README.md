@@ -42,5 +42,5 @@ As our final project, we have decided to predict house prices using historical d
 **Model** 
 |Pairplot: Using pairplot in Seaborn, out of the 5 plots generated, we can see that the increase in price is most strongly influenced by the increase in house size. Similar but weaker relationships are also seen between price and the number of beds as well as price and the number of baths. In addition, we can see that prices for different lot sizes varies indicating that other factors such as location may be playing an important role.| 
 | ------------- |
-|![model evaluation ](https://user-images.githubusercontent.com/111667387/216739429-60467831-0c93-4aca-bbfc-58546e58b531.png)|
+|![model evaluation ](https://user-images.githubusercontent.com/111667387/216739702-19e791bb-6dee-4c4e-802f-dd9a6b530009.png)|
 ## Summary 
