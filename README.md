@@ -44,5 +44,41 @@ As our final project, we have decided to predict house prices using historical d
 | ------------- |
 |![model evaluation ](https://user-images.githubusercontent.com/111667387/216739702-19e791bb-6dee-4c4e-802f-dd9a6b530009.png)|
 
-Model 2 - 
+
+
+**Model Results from Combined DataFrame with Added Feautures**
+
+In the second notebook, we made a few chnages to see if it would improve the model of our data. 
+
+First, we combined the data  of test and train dataframe, in order to create our own split for the code. 
+
+![combined_df](Static/Images/combined_df.png)
+
+Secondly, we added new features to our data set, for example, the average income per household and population in each zipcode. The columns we did not need were dropped. Like the lot size units, size units, coordinates, national rank and city.
+
+![added_features](Static/Images/added_features.png)
+
+![new_combined_df](Static/Images/new_combined_df.png)
+
+
+ Thirdly, we scaled the x values of the data set.
+
+![scaled_x](Static/Images/scaled_x.png)
+            
+
+We trained three models: Linear Regressor, Random Forest and KN Regressor. The Linear Regressor model showed the lowest error among the three.
+
+![lr_model_cb](Static/Images/lr_model_cb.png)
+            
+The model is 24%. It is still poor but there is a slight improvement compared to the previous result we attained. The mean absolute error is approximately 274821.3 with the root mean sqaured error of approximately 1019983.08.
+
+
+In the Random Forest model, the mean absolute error was approximately 294627.4 and the root mean squared error was approximstely 542.80.
+
+![random_forest_cb](Static/Images/random_forest_cb.png)
+            
+            
+In the KN Regressor, the mean absolute error was approximately 500116.05 and the root mean squared error was approximately 707.19.
+
+![kn_reg_cb](Static/Images/kn_reg_cb.png)
 ## Summary 
