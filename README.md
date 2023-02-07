@@ -48,17 +48,13 @@ As our final project, we have decided to predict house prices using historical d
 
 **Model Results from Combined DataFrame with Added Feautures**
 
-In the second notebook, we made a few chnages to see if it would improve the model of our data. 
+In the second notebook, we made a few changes to see if it would improve the model of our data. 
 
 First, we combined the data  of test and train dataframe, in order to create our own split for the code. 
 
 ![combined_df](Static/Images/combined_df.png)
 
-Secondly, we added new features to our data set, for example, the average income per household and population in each zipcode. The columns we did not need were dropped. Like the lot size units, size units, coordinates, national rank and city.
-
-![added_features](Static/Images/added_features.png)
-
-![new_combined_df](Static/Images/new_combined_df.png)
+Secondly, we added new features to our data set, for example, the average income per household and population in each zipcode. The columns that were not needed were dropped. Like the lot size units, size units, coordinates, national rank and city.
 
 
  Thirdly, we scaled the x values of the data set.
