@@ -39,42 +39,49 @@ As our final project, we have decided to predict house prices using historical d
 |**Heatmap**: Using heatmap in Seaborn, our map showed that the number of beds and house size are the most positively correlated followed by size and price and then baths and size. Conversely, the most negatively correlated factors are beds and lot size followed by zip code and price and then baths and lot size. We believe some of these correlations are inaccurate which indicates that there may be some issues with our dataset.| 
 |![heatmap](https://user-images.githubusercontent.com/111667387/216514150-2dc4e59f-eeef-4daa-9f07-6b6b1f008e75.png)|
 
-**Model** 
-|Our linear regression model performed poorly overall with a model train score of 0.21 and test score of 0.13. The mean absolute error (MAE) was also very high with a score of 306819.77 and a root mean squared error (RMSE) of 553.91. While we are not satisfied with these scores, we achieved our goal of building a simple functioning model for deliverable 2. For deliverable 3, we plan to use scaling, adding more features, and trying different models to determine the best model to use. | 
+**Model #1: Linear Regression** 
+|Our linear regression model performed poorly overall with a model train score of 0.21 and test score of 0.13. The mean absolute error (MAE) was also very high with a score of 306819.77 and a root mean squared error (RMSE) of 553.91. While we are not satisfied with these scores, we achieved our goal of building a simple functioning model. We now plan to use scaling, adding more features, and trying different models to determine the best model to use. | 
 | ------------- |
 |![model evaluation ](https://user-images.githubusercontent.com/111667387/216739702-19e791bb-6dee-4c4e-802f-dd9a6b530009.png)|
 
 
 
-**Model Results from Combined DataFrame with Added Feautures**
+**New Models with Added Features**
 
-In the second notebook, we made a few changes to see if it would improve the model of our data. 
+In the second notebook, we made the changes below to see if it could help improve the data of our model:
 
-First, we combined the data  of test and train dataframe, in order to create our own split for the code. 
+**1.** We combined the data of the test and train dataframe in order to create our own split for the model. 
 
 ![combined_df](Static/Images/combined_df.png)
 
-Secondly, we added new features to our data set, for example, the average income per household and population in each zipcode. The columns that were not needed were dropped. Like the lot size units, size units, coordinates, national rank and city.
+**2.** We added new features to our data set like the Average Income per Household and Population in each zip code. We also dropped the following features that were not needed for our model: Lot Size Units, Size Units, Coordinates, National Rank, and City.
 
-
- Thirdly, we scaled the x values of the data set.
+**3.** We scaled the x values of the dataset.
 
 ![scaled_x](Static/Images/scaled_x.png)
             
 
-We trained three models: Linear Regressor, Random Forest and KN Regressor. The Linear Regressor model showed the lowest error among the three.
+Using our second notebook with added features, we trained three models: Linear Regression, Random Forest, and KN Regression. The Linear Regression model showed the lowest number of errors among the three.
 
-![lr_model_cb](Static/Images/lr_model_cb.png)
+|Linear Regression model: the model score is 24%. It is still poor but there is a slight improvement compared to the previous result we attained. The mean absolute error is approximately 274821.3 with the root mean sqaured error of approximately 1019983.08.| 
+| ------------- |
+|![lr_model_cb](Static/Images/lr_model_cb.png)|
+
+
+|Random Forest model: the mean absolute error was approximately 294627.4 and the root mean squared error was approximstely 542.80.| 
+| ------------- |
+|![random_forest_cb](Static/Images/random_forest_cb.png)|
             
-The model is 24%. It is still poor but there is a slight improvement compared to the previous result we attained. The mean absolute error is approximately 274821.3 with the root mean sqaured error of approximately 1019983.08.
 
 
-In the Random Forest model, the mean absolute error was approximately 294627.4 and the root mean squared error was approximstely 542.80.
+|KN Regression model: The mean absolute error was approximately 500116.05 and the root mean squared error was approximately 707.19.| 
+| ------------- |
+|![kn_reg_cb](Static/Images/kn_reg_cb.png)|
+            
 
-![random_forest_cb](Static/Images/random_forest_cb.png)
             
             
-In the KN Regressor, the mean absolute error was approximately 500116.05 and the root mean squared error was approximately 707.19.
 
-![kn_reg_cb](Static/Images/kn_reg_cb.png)
+
+
 ## Summary 
