@@ -63,18 +63,18 @@ In the second notebook, we made the changes below to see if it could help improv
 
 Using our second notebook with added features, we trained three models: Linear Regression, Random Forest, and KN Regression. The Linear Regression model showed the lowest number of errors among the three.
 
-|Linear Regression model: the model score is 24%. It is still poor but there is a slight improvement compared to the previous result we attained. The mean absolute error is approximately 274821.3 with the root mean sqaured error of approximately 1019983.08.| 
+|Linear Regression model: the model score is 24%. It is still poor but there is a slight improvement compared to the result of our first model. The mean absolute error (MAE) was roughly 274821.3 and the root mean squared error (RMSE) was roughly 1019983.08.| 
 | ------------- |
 |![lr_model_cb](Static/Images/lr_model_cb.png)|
 
 
-|Random Forest model: the mean absolute error was approximately 294627.4 and the root mean squared error was approximstely 542.80.| 
+|Random Forest model: the mean absolute error (MAE) was roughly 294627.4 and the root mean squared error (RMSE) was roughly 542.80.| 
 | ------------- |
 |![random_forest_cb](Static/Images/random_forest_cb.png)|
             
 
 
-|KN Regression model: The mean absolute error was approximately 500116.05 and the root mean squared error was approximately 707.19.| 
+|KN Regression model: the mean absolute error (MAE) was roughly 500116.05 and the root mean squared error (RMSE) was roughly 707.19.| 
 | ------------- |
 |![kn_reg_cb](Static/Images/kn_reg_cb.png)|
             
