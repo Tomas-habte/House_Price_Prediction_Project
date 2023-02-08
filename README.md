@@ -61,7 +61,7 @@ In the second notebook, we made the changes below to see if it could help improv
 ![scaled_x](Static/Images/scaled_x.png)
             
 
-Using our second notebook with added features, we trained three models: Linear Regression, Random Forest, and KN Regression. The Linear Regression model showed the lowest number of errors among the three.
+Using our second notebook with added features, we trained three models: Linear Regression, Random Forest, and KNN Regression. The Linear Regression model showed the lowest number of errors among the three.
 
 |Linear Regression model: the model score is 24%. It is still poor but there is a slight improvement compared to the result of our first model. The mean absolute error (MAE) was roughly 274821.3 and the root mean squared error (RMSE) was roughly 1019983.08.| 
 | ------------- |
@@ -74,7 +74,7 @@ Using our second notebook with added features, we trained three models: Linear R
             
 
 
-|KN Regression model: the mean absolute error (MAE) was roughly 500116.05 and the root mean squared error (RMSE) was roughly 707.19.| 
+|KNN Regression model: the mean absolute error (MAE) was roughly 500116.05 and the root mean squared error (RMSE) was roughly 707.19.| 
 | ------------- |
 |![kn_reg_cb](Static/Images/kn_reg_cb.png)|
             
@@ -85,3 +85,4 @@ Using our second notebook with added features, we trained three models: Linear R
 
 
 ## Summary 
+Overall, we consider our final project to be a success as we worked well as a team and used various tools and resources to build a model and present our findings. We initially built a functioning linear regression model, but it had poor results as the mean absolute error (MAE) was 306820. To improve this model, we combined and then split the test and train dataframe, added and dropped features, and scaled our dataset. Using the updated dataframe and dataset, we tested the linear regression, random forest, and KNN regression models. Our test results showed that the linear regression model had the lowest MAE (274821) which is a modest improvement from our inital linear regression model. We also created different diagrams using Seaborn to gain better insights on our data. Lastly, we created an interactive dashboard in Tableau that tells a story on our model and the data. 
