@@ -22,10 +22,10 @@ As our final project, we have decided to predict house prices using historical d
 | ------------- | ------------- |
 | ![Datatypes 1](https://user-images.githubusercontent.com/111667387/215642689-87ad7c05-c850-4c8f-a192-e4f9667e257f.jpg)|![Datatypes 2](https://user-images.githubusercontent.com/111667387/215642736-b5fdb394-d9c9-40ec-9f32-da7410c99c73.jpg)|
 
-**Technologies**
-- Jupyter Notebook 
-- Tableau
-- Excel 
+**Tools & technologies**
+- Visualization: Tableau, Seaborn, Matplotlib, Flask
+- Data Analysis: Jupyter Notebook, Excel
+- Algorithms: Linear Regression, Random Forest Regression, k-Nearest Neighbours (k-NN)
 
 **Project Status**: We have built several machine learning models and determined that the linear regression model is the best model to use as it had the lowest number of errors. We also built an interactive dashboard in Tableau.
 
