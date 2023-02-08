@@ -1,6 +1,7 @@
 # House Price Prediction Project
 ## Overview
 As our final project, we have decided to predict house prices using historical data and machine learning. We chose this topic because the housing market is widely talked about, especially since the start of the COVID-19 pandemic. We also chose this topic because the housing market affects all of us in one way or another. Our analysis will help to answer two questions: how accurately can a model predict the sale price of a house and what are the most important features that can impact the price of a house? 
+[Link to Tableau Dashboard](https://public.tableau.com/app/profile/sandra.nwokolo/viz/Final_project_16758302638690/FinalprojectDashboard?publish=yes)
 
 **Dataset**
 - There are two datasets being used for this analysis: data on houses with their prices sold in Seattle, Washington, USA between August and December 2022 from Kaggle, and data on all houses in the United States with their zip codes and coordinates.
